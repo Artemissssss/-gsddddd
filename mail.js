@@ -39,7 +39,7 @@ const MSGSSUCCESS = "Сообщение успешно отправлено";
 const SENDER = 'sender@yandex.ru';
  
 // Почта на которую будет приходить письмо
-const CATCHER = 'artemka7.av@gmail.com';
+const CATCHER = 'sender@yandex.ru';
  
 // Тема письма
 const SUBJECT = 'Заявка с сайта';
