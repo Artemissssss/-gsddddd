@@ -27,7 +27,7 @@ const MSGSSUCCESS = "Сообщение успешно отправлено";
 
 // *** SMTP *** //
 
-  require_once($_SERVER['DOCUMENT_ROOT'] . '/index.php');
+  require_once($_SERVER['DOCUMENT_ROOT'] .index.php);
   const HOST = 'ssl://smtp.yandex.ru';
   const LOGIN = 'sender@yandex.ru';
   const PASS = 'senderPass';
@@ -36,7 +36,7 @@ const MSGSSUCCESS = "Сообщение успешно отправлено";
 // *** /SMTP *** //
 
       // Почта с которой будет приходить письмо
-const SENDER = 'astrakiller20@gmail.com';
+const SENDER = 'sender@yandex.ru';
  
 // Почта на которую будет приходить письмо
 const CATCHER = 'artemka7.av@gmail.com';
